@@ -26,7 +26,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/pptxgenjs-angular/libs/jquery.min.js",
+              "node_modules/pptxgenjs-angular/libs/jszip.min.js",
+              "node_modules/pptxgenjs-angular/libs/promise.min.js"      
+            ]
           },
           "configurations": {
             "production": {

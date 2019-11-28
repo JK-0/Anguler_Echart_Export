@@ -4,9 +4,16 @@
   </h1>
 </div>
 
+<script lang="javascript" src="PptxGenJS/dist/pptxgen.bundle.js"></script>
 
-<button (click)="export()" type="button" style="position: absolute;">
+<button (click)="export_bas64()" type="button" style="position: absolute;">
     export
 </button>
-<div id="main" style="width: 600px;height:400px;position: absolute;margin-top: 30px;">
 
+<button (click)="base64_to_ppt_single_slide()" type="button" style="position: absolute;margin-left: 78px;">
+    PPT Export
+</button>
+<button (click)="base64_to_ppt_Multiple_slide()" type="button" style="position: absolute;margin-left: 199px;">
+    PPT Export multi slide
+</button>
+<div id="main" style="width: 600px;height:400px;position: absolute;margin-top: 30px;">
